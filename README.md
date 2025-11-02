@@ -5,21 +5,15 @@ This module allows a drone to detect disasters (like fire, flood, or smoke) in r
 ## Folder Structure
 
 Disaster_Detection/
-│
-├── Models/
-│   └── best_float16.tflite        # Trained TFLite model
-│
-├── Code/
-│   └── run_disaster_camera.py     # Script to run the model on live camera feed
-│
-├── Docs/
-│   └── README.md                  # This file
-│
-└── requirements.txt               # Python dependencies
+- Models/
+   best_float16.tflite        # Trained TFLite model
+- Docs/  
+   README.md                  # This file
+- requirements.txt               # Python dependencies
 
 Optional:
-├── sample_images/                 # For testing with static images
-    └── test1.jpg
+sample_images/                 # For testing with static images
+  test1.jpg
 
 ## Dependencies
 
