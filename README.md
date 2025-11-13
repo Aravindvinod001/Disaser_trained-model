@@ -7,9 +7,11 @@ This module allows a drone to detect disasters (like fire, flood, or smoke) in r
 Disaster_Detection/
 - Models/
    best_float16.tflite        # Trained TFLite model
+   run_tflite_model.py    —    script to test the model and run live inference.
 - Docs/  
    README.md                  # This file
 - requirements.txt               # Python dependencies
+- 
 
 Optional:
 sample_images/                 # For testing with static images
